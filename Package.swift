@@ -14,7 +14,7 @@ let package = Package(
 
     ],
     targets: [
-        .target(name: "SpreadsheetView", dependencies: []),
+        .target(name: "SpreadsheetView", path: "Framework/Sources", dependencies: []),
     ],
     swiftLanguageVersions: [
         .v5
